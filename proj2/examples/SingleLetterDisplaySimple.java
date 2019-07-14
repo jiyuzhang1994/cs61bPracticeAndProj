@@ -39,7 +39,7 @@ public class SingleLetterDisplaySimple extends Application {
             textCenterY = windowHeight / 2;
 
             // Initialize some empty text and add it to root so that it will be displayed.
-            displayText = new Text(textCenterX, textCenterY, "");
+            displayText = new Text(textCenterX, textCenterY, "J");
             // Always set the text origin to be VPos.TOP! Setting the origin to be VPos.TOP means
             // that when the text is assigned a y-position, that position corresponds to the
             // highest position across all letters (for example, the top of a letter like "I", as
