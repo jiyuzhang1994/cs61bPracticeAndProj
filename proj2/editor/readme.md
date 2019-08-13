@@ -2,11 +2,11 @@ Text Editor
 
 **(1) Functionalities**
 
-This editor currently supports the following functionalities now:
+This editor currently supports the following functionalities:
 
 1.undo/redo
 
-Pressing shortcut keys(command in MAC) + "z" can undo last action (adding/deleting a character), which has a limit of last at most 100 actions;
+Pressing shortcut keys(command in MAC) + "z" can undo last action (adding/deleting a character), which has a limit of last at most 100 actions; (Also see the proof of correctness at this [link](https://jiyuzhang1994.github.io/ProofOfUndo/))
 
 Pressing command + "y" keys can redo your last undoed action.
 
